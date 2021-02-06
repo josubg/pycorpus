@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='pycorpus',
-    version='2.1',
+    version='2.2',
     author='Josu Bermudez',
     author_email='josubg@gmail.com',
     packages=['pycorpus', ],
@@ -18,7 +18,7 @@ setup(
         'Intended Audience :: Science/Research',
         'Topic :: Software Development :: Libraries :: Python Modules',
         'License :: OSI Approved :: Apache Software License',
-        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3',
     ],
     install_requires=['configargparse'],
     keywords='Parallel Experiment multiconfig',
